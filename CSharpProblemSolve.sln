@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpProblemSolve", "CShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Div.3 974", "Div.3 974\Div.3 974.csproj", "{8231F011-9123-4B17-BE16-1B840152557B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Div.4 993", "Div.4 993\Div.4 993.csproj", "{4BD5F5CA-87B0-4488-8514-4EC27D2247B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKata", "TestKata\TestKata.csproj", "{BB31351C-6E4B-49A1-9F37-5CB2F0753922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{8231F011-9123-4B17-BE16-1B840152557B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8231F011-9123-4B17-BE16-1B840152557B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8231F011-9123-4B17-BE16-1B840152557B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD5F5CA-87B0-4488-8514-4EC27D2247B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD5F5CA-87B0-4488-8514-4EC27D2247B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD5F5CA-87B0-4488-8514-4EC27D2247B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD5F5CA-87B0-4488-8514-4EC27D2247B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB31351C-6E4B-49A1-9F37-5CB2F0753922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB31351C-6E4B-49A1-9F37-5CB2F0753922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB31351C-6E4B-49A1-9F37-5CB2F0753922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB31351C-6E4B-49A1-9F37-5CB2F0753922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
