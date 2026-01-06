@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Div.4 993", "Div.4 993\Div.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKata", "TestKata\TestKata.csproj", "{BB31351C-6E4B-49A1-9F37-5CB2F0753922}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vjudge.779544", "Vjudge.779544\Vjudge.779544.csproj", "{3821F1F9-FB32-43C6-ADE3-D7E821C4C06C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{BB31351C-6E4B-49A1-9F37-5CB2F0753922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB31351C-6E4B-49A1-9F37-5CB2F0753922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB31351C-6E4B-49A1-9F37-5CB2F0753922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3821F1F9-FB32-43C6-ADE3-D7E821C4C06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3821F1F9-FB32-43C6-ADE3-D7E821C4C06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3821F1F9-FB32-43C6-ADE3-D7E821C4C06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3821F1F9-FB32-43C6-ADE3-D7E821C4C06C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

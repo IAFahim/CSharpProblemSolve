@@ -1,14 +1,27 @@
 ﻿using System.Text;
 
-namespace CSharpProblemSolve
+namespace Vjudge._779544
 {
     internal class A : ISolve
     {
         public void Solve(StreamReader reader, StreamWriter writer)
         {
-            // Your solution here
-            int n = reader.NextInt();
-            writer.WriteLine(n);
+            int nMoreStepIfHeChangeDirection = reader.NextInt(); // Not Required
+            int kDirectionChangeAllowed = reader.NextInt(); // Not Required
+            int tTimeLeft = reader.NextInt();
+            int vStepPerSecond = reader.NextInt();
+
+            int hxDistance = reader.NextInt();
+            int hyDistance = reader.NextInt();
+
+            var hxSq = (hxDistance * hxDistance);
+            var hySq = (hyDistance * hyDistance);
+            
+            double distance = Math.Sqrt(hxSq + hySq);
+            var canTravel = tTimeLeft * vStepPerSecond;
+
+            if (distance > canTravel) writer.WriteLine("Poor Ia");
+            else writer.WriteLine("Good night Ia");
         }
     }
 

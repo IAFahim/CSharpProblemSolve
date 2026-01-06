@@ -6,8 +6,6 @@ internal class A : ISolve
 {
     public void Solve(StreamReader reader, StreamWriter writer)
     {
-        
-        int 
         int t = int.Parse(reader.ReadLine()!);
         for (int i = 0; i < t; i++)
         {
