@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKata", "TestKata\TestKa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vjudge.779544", "Vjudge.779544\Vjudge.779544.csproj", "{3821F1F9-FB32-43C6-ADE3-D7E821C4C06C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counting Rooms", "Counting Rooms\Counting Rooms.csproj", "{E4AE0C75-B393-4746-A0E7-A81E12B80116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{3821F1F9-FB32-43C6-ADE3-D7E821C4C06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3821F1F9-FB32-43C6-ADE3-D7E821C4C06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3821F1F9-FB32-43C6-ADE3-D7E821C4C06C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4AE0C75-B393-4746-A0E7-A81E12B80116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AE0C75-B393-4746-A0E7-A81E12B80116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AE0C75-B393-4746-A0E7-A81E12B80116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AE0C75-B393-4746-A0E7-A81E12B80116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
