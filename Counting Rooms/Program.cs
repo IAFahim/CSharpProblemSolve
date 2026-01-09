@@ -8,6 +8,32 @@ internal class A : ISolve
     {
         GetInput(reader, out var n, out var m, out var chars);
         ReadOnlySpan<(int, int)> dir = [(1, 0), (0, 1), (-1, 0), (0, -1)];
+
+
+        bool[][] visited = new bool[n][];
+        for (int i = 0; i < n; i++) visited[i] = new bool[m];
+
+        int roomCount = 0;
+        char floorChar = '.';
+
+        for (int y = 0; y < n; y++)
+        {
+            for (int x = 0; x < m; x++)
+            {
+                var canVisitFloorFirstTime = CanVisitFloorFirstTime(chars, y, x, floorChar, visited);
+                if (canVisitFloorFirstTime)
+                {
+                    FloodFill(chars, visited, y, x, n, m, dir, floorChar);
+                    roomCount++;
+                }
+            }
+        }
+        writer.WriteLine(roomCount);
+    }
+
+    private static bool CanVisitFloorFirstTime(char[][] chars, int y, int x, char floorChar, bool[][] visited)
+    {
+        return chars[y][x] == floorChar && !visited[y][x];
     }
 
     private static void FloodFill(
@@ -37,17 +63,18 @@ internal class A : ISolve
     }
 
     private static bool CanEnqueue(
-        char[][] chars, bool[][] visited, 
-        int n, int m, char floorChar, 
+        char[][] chars, bool[][] visited,
+        int n, int m, char floorChar,
         int y, int dy, int x,
         int dx, out int ny, out int nx
-        )
+    )
     {
         ny = y + dy;
         nx = x + dx;
         if (!IsInBound(n, m, ny, nx)) return false;
         if (chars[ny][nx] != floorChar) return false;
-        return visited[ny][nx];
+        if (visited[ny][nx]) return false;
+        return true;
     }
 
     private static bool IsInBound(int n, int m, int ny, int nx)
